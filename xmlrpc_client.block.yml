@@ -5,7 +5,7 @@ flags: [ python ]
 parameters:
 -   id: addr
     label: Address
-    dtype: string
+    dtype: raw
     default: localhost
 -   id: port
     label: Port
@@ -13,7 +13,7 @@ parameters:
     default: '8080'
 -   id: callback
     label: Callback
-    dtype: string
+    dtype: raw
     default: set_
 -   id: variable
     label: Variable
